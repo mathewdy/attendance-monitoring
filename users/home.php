@@ -159,12 +159,14 @@ $date = date('y-m-d');
               </div>  
             </div>
             <div class="col-md-4">
-              <div class="card bg-success text-white p-5 text-center">
+              <div class="card bg-white p-5 text-center">
               <div class="h3">Date: <?php echo $date = date('Y-M-d');  ?> </div>  
               <div id="clock" class="h3"></div>
-
-              <button class="btn btn-info" name="time_in">Time-in</button>
-              <button class="btn btn-info" name="time_out">Time-out</button>
+              <span class="d-flex justify-content-center align-items-center">
+                <button class="btn btn-success mr-4" name="time_in">Time-in</button>
+                <button class="btn btn-info" name="time_out">Time-out</button>
+              </span>
+             
 
               </div>
             </div>
