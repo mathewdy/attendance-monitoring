@@ -16,6 +16,9 @@ if(mysqli_num_rows($q_run) > 0){
         $image = $rows['image'];
     }
 }
+
+date_default_timezone_set("Asia/Manila");
+$date = date('y-m-d');
 ?>
 
 
@@ -157,7 +160,12 @@ if(mysqli_num_rows($q_run) > 0){
             </div>
             <div class="col-md-4">
               <div class="card bg-success text-white p-5 text-center">
-                <div id="clock" class="h2"></div>
+              <div class="h3">Date: <?php echo $date = date('Y-M-d');  ?> </div>  
+              <div id="clock" class="h3"></div>
+
+              <button class="btn btn-info" name="time_in">Time-in</button>
+              <button class="btn btn-info" name="time_out">Time-out</button>
+
               </div>
             </div>
         </div>  
