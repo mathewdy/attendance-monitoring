@@ -105,7 +105,8 @@ if(mysqli_num_rows($q_run) > 0){
             </div>
           </div>
           <div class="row">
-            <div class="col-md-12 grid-margin stretch-card">
+
+            <div class="col-md-8 grid-margin stretch-card">
               <div class="card">
                 <div class="card-people mt-auto p-4">
                     <table class="table table-bordered table-hover" id="dataTable">
@@ -152,7 +153,12 @@ if(mysqli_num_rows($q_run) > 0){
                         </tbody>
                     </table>
                 </div> 
-              <</div>  
+              </div>  
+            </div>
+            <div class="col-md-4">
+              <div class="card bg-success text-white p-5 text-center">
+                <div id="clock" class="h2"></div>
+              </div>
             </div>
         </div>  
         </div>
@@ -198,6 +204,7 @@ if(mysqli_num_rows($q_run) > 0){
 <script src="../src/js/custom/dataTable-init.js"></script>
 <script src="../src/vendors/sweetalert/sweetalert.min.js"></script>
 <script src="../src/js/custom/swal-delete.js"></script>
+<script src="../src/js/custom/clock.js"></script>
 </body>
 </html>
 
