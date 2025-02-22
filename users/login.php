@@ -25,10 +25,10 @@ include('../connection/connection.php');
 </head>
 <body>
   <div class="container-scroller">
-  <nav class="navbar bg-success">
+  <nav class="navbar bg-info ">
         <div class="container">
             <a class="navbar-brand m-auto" href="#">
-            <img src="../src/img/FEU_Tamaraws_official_logo.png" alt="Feu_Tamaraw" height="50">
+            <!-- <img src="../src/img/FEU_Tamaraws_official_logo.png" alt="Feu_Tamaraw" height="50"> -->
             </a>
         </div>
     </nav>
@@ -47,14 +47,14 @@ include('../connection/connection.php');
                   <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" name="password" placeholder="Password">
                 </div>
                 <div class="mt-3">
-                  <input type="submit" class="btn btn-block btn-inverse-success btn-lg font-weight-medium auth-form-btn" name="login" value="Sign In">
+                  <input type="submit" class="btn btn-block btn-inverse-info btn-lg font-weight-medium auth-form-btn" name="login" value="Sign In">
                   
                 </div>
                 <div class="my-2 d-flex justify-content-center align-items-center">
                   <a href="forgot-password.php" class="auth-link text-black">Forgot password?</a>
                 </div>
                 <div class="text-center mt-4 font-weight-light">
-                  Don't have an account? <a href="register.php" class="text-success">Create</a>
+                  Don't have an account? <a href="register.php" class="text-info">Create</a>
                 </div>
               </form>
             </div>
