@@ -28,7 +28,7 @@ include('../connection/connection.php');
   <nav class="navbar bg-info ">
         <div class="container">
             <a class="navbar-brand m-auto" href="#">
-            <!-- <img src="../src/img/FEU_Tamaraws_official_logo.png" alt="Feu_Tamaraw" height="50"> -->
+            <img src="../src/img/logo.jpg" alt="Feu_Tamaraw" height="50">
             </a>
         </div>
     </nav>

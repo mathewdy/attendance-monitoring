@@ -53,9 +53,9 @@ if(mysqli_num_rows($q_run) > 0){
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row bg-success">
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <!-- <a class="navbar-brand brand-logo mr-5 text-success" style="font-weight: 900;" href="home.php">
-          <img src="../src/img/FEU_Tamaraws_official_logo.png" class="mr-2" alt="logo"/>
-        </a> -->
+        <a class="navbar-brand brand-logo mr-5 text-success" style="font-weight: 900;" href="home.php">
+          <img src="../src/img/logo.jpg" class="mr-2" alt="logo"/>
+        </a>
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-center justify-content-end">
         
@@ -106,16 +106,16 @@ if(mysqli_num_rows($q_run) > 0){
           </div>
           <div class="row">
             <div class="col-md-12 grid-margin stretch-card">
-              <!-- <div class="card">
+              <div class="card">
                 <div class="card-people mt-auto p-4">
                     <table class="table table-bordered table-hover" id="dataTable">
                         <thead>
                         <tr>
-                            <th>Patient Id</th>
+                            <th>User Id</th>
                             <th>First Name</th>
                             <th>Middle Name</th>
                             <th>Last Name</th>
-                            <th>Date of Birth</th>
+                            <th>Hired Date</th>
                             <th>Options</th>
                         </tr>
                         </thead>
@@ -151,8 +151,8 @@ if(mysqli_num_rows($q_run) > 0){
                         ?>
                         </tbody>
                     </table>
-                </div> --> 
-              <!-- </div>  -->
+                </div> 
+              <</div>  
             </div>
         </div>  
         </div>
