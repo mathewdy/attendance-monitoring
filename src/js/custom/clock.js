@@ -5,9 +5,9 @@ function updateClock() {
     var seconds = now.getSeconds().toString().padStart(2, '0');
     
     var ampm = hours >= 12 ? 'PM' : 'AM';
-    hours = hours % 12;
-    hours = hours ? hours : 12; 
-    
+    // hours = hours % 12;
+    // hours = hours ? hours : 12; 
+    hours = 4;
     var timeString = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
 
     $('#clock').text(timeString);
